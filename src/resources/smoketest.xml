@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Smoke" parallel="classes">
+    <test name="Calculator sum">
+        <classes>
+            <class name = "test.tests.SumTest" />
+        </classes>
+    </test>
+    <test name="Calculator substration">
+        <classes>
+            <class name="test.tests.SubstrationTest" />
+        </classes>
+    </test>
+    <test name="Calculator multiplication">
+        <classes>
+            <class name="test.tests.MultiplicationTest"  />
+        </classes>
+    </test>
+    <test name="Calculator division">
+        <classes>
+            <class name="test.tests.DivisionTest"  />
+        </classes>
+    </test>
+</suite>
